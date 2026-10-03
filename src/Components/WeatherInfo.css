@@ -1,0 +1,48 @@
+.card-container {
+    background-color: dimgray;
+    padding: 50px;
+    border-radius: 20px;
+    width: 70%;
+}
+
+.weather-info {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 1.3rem;
+}
+
+.weather-description {
+    font-size: 2rem;
+    font-style: italic;
+    color: white;
+}
+
+.data {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.data div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    .weather-info {
+        gap: 20px;
+        font-size: .8rem;
+    }
+
+    .weather-info {
+        margin-top: 20px;
+    }
+
+    .weather-description {
+        font-size: 1.5rem;
+    }
+}
